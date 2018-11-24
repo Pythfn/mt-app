@@ -1,7 +1,7 @@
 <template>
   <div class="page-index">
     <el-row>
-      <el-col :span="10">
+      <el-col :span="5">
         <m-menu />
       </el-col>
       <el-col :span="10">222</el-col>
@@ -12,13 +12,13 @@
 <script>
 import mMenu from '@/components/index/menu'
 export default {
-  components:{
+  components: {
     mMenu
   }
 }
 
 </script>
-<style>
+<style lang="scss">
 @import "@/assets/css/index/index.scss";
 
 </style>
