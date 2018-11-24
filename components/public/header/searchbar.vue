@@ -52,11 +52,6 @@
             </dl>
           </el-col>
         </div>
-      </el-col>
-      <el-col
-        :span="6"
-        class="right"/>
-      <el-col :span="15">
         <p class="suggest">
           <a href="#">故宫博物院</a>
           <a href="#">故宫博物院</a>
@@ -64,7 +59,27 @@
           <a href="#">故宫博物院</a>
           <a href="#">故宫博物院</a>
         </p>
+        <ul class="nav">
+          <li><nuxt-link
+            to="/"
+            class="takeout">美团外卖</nuxt-link></li>
+          <li><nuxt-link
+            to="/"
+            class="movie">猫眼电影</nuxt-link></li>
+          <li><nuxt-link
+            to="/"
+            class="hotel">美团酒店</nuxt-link></li>
+          <li><nuxt-link
+            to="/"
+            class="apartment">民宿/公寓</nuxt-link></li>
+          <li><nuxt-link
+            to="/"
+            class="business">商家入驻</nuxt-link></li>
+        </ul>
       </el-col>
+      <el-col
+        :span="6"
+        class="right"/>
     </el-row>
   </div>
 </template>
